@@ -1,0 +1,29 @@
+2025-09-20 13:16:02,109 - INFO - ========== Start Training for VP4 (use ALL data, no folds) ==========
+2025-09-20 13:16:28,117 - INFO - ========== Start Training for VP4 (use ALL data, no folds) ==========
+2025-09-20 13:30:45,306 - INFO - ✅ 最后一轮模型权重已保存到 output_8M_pretraining/VP4/final_run/best_model
+2025-09-20 13:30:45,310 - INFO - 
+[🔍 Test on VP4] Start testing final model on test.csv
+2025-09-20 13:30:48,971 - INFO - Macro F1-score: 0.9204
+2025-09-20 13:30:48,971 - INFO - MCC: 0.9278
+2025-09-20 13:30:48,971 - INFO - ROC-AUC (macro, OvR): 0.9973940243483771
+2025-09-20 13:30:48,971 - INFO - PR-AUC  (macro): 0.9452528069199737
+2025-09-20 13:30:48,972 - INFO - Confusion Matrix:
+[[ 29   0   0   0   0]
+ [  1   7   0   0   0]
+ [  1   0 540   3   0]
+ [  0   0   0   7   0]
+ [  3   0  23   0 242]]
+2025-09-20 13:30:48,974 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+     Bovidae       0.85      1.00      0.92        29
+     Equidae       1.00      0.88      0.93         8
+   Hominidae       0.96      0.99      0.98       544
+ Phasianidae       0.70      1.00      0.82         7
+      Suidae       1.00      0.90      0.95       268
+
+    accuracy                           0.96       856
+   macro avg       0.90      0.95      0.92       856
+weighted avg       0.97      0.96      0.96       856
+
+2025-09-20 13:30:48,975 - INFO - [Saved] Final test metrics saved to: output_8M_pretraining/VP4/test_f1_by_fold.csv

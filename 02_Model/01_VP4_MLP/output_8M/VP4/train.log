@@ -1,0 +1,273 @@
+2025-09-19 15:30:46,847 - INFO - ========== Start Training for VP4 ==========
+2025-09-19 15:30:46,864 - INFO - ------ Fold 1 Training ------
+2025-09-19 15:49:52,264 - INFO - ✅ 自定义模型权重已保存到 output_8M/VP4/fold1/best_model
+2025-09-19 15:49:52,272 - INFO - ------ Fold 2 Training ------
+2025-09-19 16:05:10,965 - INFO - ✅ 自定义模型权重已保存到 output_8M/VP4/fold2/best_model
+2025-09-19 16:05:10,976 - INFO - ------ Fold 3 Training ------
+2025-09-19 16:25:04,294 - INFO - ✅ 自定义模型权重已保存到 output_8M/VP4/fold3/best_model
+2025-09-19 16:25:04,301 - INFO - ------ Fold 4 Training ------
+2025-09-19 16:41:07,921 - INFO - ✅ 自定义模型权重已保存到 output_8M/VP4/fold4/best_model
+2025-09-19 16:41:07,928 - INFO - ------ Fold 5 Training ------
+2025-09-19 16:54:10,106 - INFO - ✅ 自定义模型权重已保存到 output_8M/VP4/fold5/best_model
+2025-09-19 16:54:10,113 - INFO - [VP4] Best Fold F1: 0.9342490949828463
+2025-09-19 16:54:10,117 - INFO - 
+[🔍 Test on VP4] Start testing each best_model on test.csv
+2025-09-19 16:54:10,117 - INFO - 
+[Fold 1]
+2025-09-19 16:54:14,079 - INFO - Macro F1-score: 0.8843
+2025-09-19 16:54:14,079 - INFO - MCC: 0.8227
+2025-09-19 16:54:14,079 - INFO - ROC-AUC (macro, OvR): 0.9897848849456119
+2025-09-19 16:54:14,079 - INFO - PR-AUC  (macro): 0.8812700271502629
+2025-09-19 16:54:14,080 - INFO - Confusion Matrix:
+[[ 29   0   0   0   0]
+ [  1   6   0   0   1]
+ [  2   0 540   2   0]
+ [  0   0   0   7   0]
+ [  3   0  68   0 197]]
+2025-09-19 16:54:14,082 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+     Bovidae       0.83      1.00      0.91        29
+     Equidae       1.00      0.75      0.86         8
+   Hominidae       0.89      0.99      0.94       544
+ Phasianidae       0.78      1.00      0.88         7
+      Suidae       0.99      0.74      0.85       268
+
+    accuracy                           0.91       856
+   macro avg       0.90      0.90      0.88       856
+weighted avg       0.92      0.91      0.91       856
+
+2025-09-19 16:54:14,082 - INFO - 
+[Fold 2]
+2025-09-19 16:54:17,914 - INFO - Macro F1-score: 0.8711
+2025-09-19 16:54:17,914 - INFO - MCC: 0.9207
+2025-09-19 16:54:17,914 - INFO - ROC-AUC (macro, OvR): 0.9952250572619714
+2025-09-19 16:54:17,914 - INFO - PR-AUC  (macro): 0.885275779999294
+2025-09-19 16:54:17,914 - INFO - Confusion Matrix:
+[[ 29   0   0   0   0]
+ [  1   6   0   0   1]
+ [  1   0 535   3   5]
+ [  0   0   0   7   0]
+ [  4   2  16   1 245]]
+2025-09-19 16:54:17,917 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+     Bovidae       0.83      1.00      0.91        29
+     Equidae       0.75      0.75      0.75         8
+   Hominidae       0.97      0.98      0.98       544
+ Phasianidae       0.64      1.00      0.78         7
+      Suidae       0.98      0.91      0.94       268
+
+    accuracy                           0.96       856
+   macro avg       0.83      0.93      0.87       856
+weighted avg       0.96      0.96      0.96       856
+
+2025-09-19 16:54:17,917 - INFO - 
+[Fold 3]
+2025-09-19 16:54:21,798 - INFO - Macro F1-score: 0.8900
+2025-09-19 16:54:21,799 - INFO - MCC: 0.9115
+2025-09-19 16:54:21,799 - INFO - ROC-AUC (macro, OvR): 0.9943640294593143
+2025-09-19 16:54:21,799 - INFO - PR-AUC  (macro): 0.8621694587335386
+2025-09-19 16:54:21,799 - INFO - Confusion Matrix:
+[[ 29   0   0   0   0]
+ [  1   6   0   0   1]
+ [  1   0 540   3   0]
+ [  0   0   0   7   0]
+ [  3   1  28   0 236]]
+2025-09-19 16:54:21,801 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+     Bovidae       0.85      1.00      0.92        29
+     Equidae       0.86      0.75      0.80         8
+   Hominidae       0.95      0.99      0.97       544
+ Phasianidae       0.70      1.00      0.82         7
+      Suidae       1.00      0.88      0.93       268
+
+    accuracy                           0.96       856
+   macro avg       0.87      0.92      0.89       856
+weighted avg       0.96      0.96      0.96       856
+
+2025-09-19 16:54:21,801 - INFO - 
+[Fold 4]
+2025-09-19 16:54:25,658 - INFO - Macro F1-score: 0.8871
+2025-09-19 16:54:25,659 - INFO - MCC: 0.8699
+2025-09-19 16:54:25,659 - INFO - ROC-AUC (macro, OvR): 0.9869062111575884
+2025-09-19 16:54:25,659 - INFO - PR-AUC  (macro): 0.9041731255680631
+2025-09-19 16:54:25,659 - INFO - Confusion Matrix:
+[[ 28   0   0   0   1]
+ [  1   6   0   0   1]
+ [  1   0 540   3   0]
+ [  0   0   0   7   0]
+ [  3   0  46   0 219]]
+2025-09-19 16:54:25,661 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+     Bovidae       0.85      0.97      0.90        29
+     Equidae       1.00      0.75      0.86         8
+   Hominidae       0.92      0.99      0.96       544
+ Phasianidae       0.70      1.00      0.82         7
+      Suidae       0.99      0.82      0.90       268
+
+    accuracy                           0.93       856
+   macro avg       0.89      0.91      0.89       856
+weighted avg       0.94      0.93      0.93       856
+
+2025-09-19 16:54:25,661 - INFO - 
+[Fold 5]
+2025-09-19 16:54:29,520 - INFO - Macro F1-score: 0.8953
+2025-09-19 16:54:29,528 - INFO - MCC: 0.9205
+2025-09-19 16:54:29,528 - INFO - ROC-AUC (macro, OvR): 0.9960191251526178
+2025-09-19 16:54:29,528 - INFO - PR-AUC  (macro): 0.9007443387801664
+2025-09-19 16:54:29,528 - INFO - Confusion Matrix:
+[[ 28   0   0   0   1]
+ [  2   6   0   0   0]
+ [  1   0 538   3   2]
+ [  0   0   0   7   0]
+ [  4   0  21   0 243]]
+2025-09-19 16:54:29,531 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+     Bovidae       0.80      0.97      0.88        29
+     Equidae       1.00      0.75      0.86         8
+   Hominidae       0.96      0.99      0.98       544
+ Phasianidae       0.70      1.00      0.82         7
+      Suidae       0.99      0.91      0.95       268
+
+    accuracy                           0.96       856
+   macro avg       0.89      0.92      0.90       856
+weighted avg       0.96      0.96      0.96       856
+
+2025-09-19 16:54:29,538 - INFO - [Saved] Test metrics by fold saved to: output_8M/VP4/test_f1_by_fold.csv
+2025-09-19 16:54:29,538 - INFO - 
+[Summary] VP4 5-Fold Test F1 Mean: 0.8856, MCC Mean: 0.8891, ROC-AUC Mean: 0.9925, PR-AUC Mean: 0.8867
+2025-09-20 11:32:09,232 - INFO - ========== Start Training for VP4 ==========
+2025-09-20 11:32:09,250 - INFO - 
+[🔍 Test on VP4] Start testing each best_model on test.csv
+2025-09-20 11:32:09,250 - INFO - 
+[Fold 1]
+2025-09-20 11:32:13,210 - INFO - Macro F1-score: 0.8843
+2025-09-20 11:32:13,210 - INFO - MCC: 0.8227
+2025-09-20 11:32:13,210 - INFO - ROC-AUC (macro, OvR): 0.9897848849456119
+2025-09-20 11:32:13,210 - INFO - PR-AUC  (macro): 0.8812700271502629
+2025-09-20 11:32:13,210 - INFO - Confusion Matrix:
+[[ 29   0   0   0   0]
+ [  1   6   0   0   1]
+ [  2   0 540   2   0]
+ [  0   0   0   7   0]
+ [  3   0  68   0 197]]
+2025-09-20 11:32:13,213 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+     Bovidae       0.83      1.00      0.91        29
+     Equidae       1.00      0.75      0.86         8
+   Hominidae       0.89      0.99      0.94       544
+ Phasianidae       0.78      1.00      0.88         7
+      Suidae       0.99      0.74      0.85       268
+
+    accuracy                           0.91       856
+   macro avg       0.90      0.90      0.88       856
+weighted avg       0.92      0.91      0.91       856
+
+2025-09-20 11:32:13,213 - INFO - 
+[Fold 2]
+2025-09-20 11:32:16,850 - INFO - Macro F1-score: 0.8711
+2025-09-20 11:32:16,850 - INFO - MCC: 0.9207
+2025-09-20 11:32:16,850 - INFO - ROC-AUC (macro, OvR): 0.9952250572619714
+2025-09-20 11:32:16,850 - INFO - PR-AUC  (macro): 0.885275779999294
+2025-09-20 11:32:16,850 - INFO - Confusion Matrix:
+[[ 29   0   0   0   0]
+ [  1   6   0   0   1]
+ [  1   0 535   3   5]
+ [  0   0   0   7   0]
+ [  4   2  16   1 245]]
+2025-09-20 11:32:16,852 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+     Bovidae       0.83      1.00      0.91        29
+     Equidae       0.75      0.75      0.75         8
+   Hominidae       0.97      0.98      0.98       544
+ Phasianidae       0.64      1.00      0.78         7
+      Suidae       0.98      0.91      0.94       268
+
+    accuracy                           0.96       856
+   macro avg       0.83      0.93      0.87       856
+weighted avg       0.96      0.96      0.96       856
+
+2025-09-20 11:32:16,852 - INFO - 
+[Fold 3]
+2025-09-20 11:32:20,480 - INFO - Macro F1-score: 0.8900
+2025-09-20 11:32:20,480 - INFO - MCC: 0.9115
+2025-09-20 11:32:20,480 - INFO - ROC-AUC (macro, OvR): 0.9943640294593143
+2025-09-20 11:32:20,480 - INFO - PR-AUC  (macro): 0.8621694587335386
+2025-09-20 11:32:20,480 - INFO - Confusion Matrix:
+[[ 29   0   0   0   0]
+ [  1   6   0   0   1]
+ [  1   0 540   3   0]
+ [  0   0   0   7   0]
+ [  3   1  28   0 236]]
+2025-09-20 11:32:20,484 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+     Bovidae       0.85      1.00      0.92        29
+     Equidae       0.86      0.75      0.80         8
+   Hominidae       0.95      0.99      0.97       544
+ Phasianidae       0.70      1.00      0.82         7
+      Suidae       1.00      0.88      0.93       268
+
+    accuracy                           0.96       856
+   macro avg       0.87      0.92      0.89       856
+weighted avg       0.96      0.96      0.96       856
+
+2025-09-20 11:32:20,484 - INFO - 
+[Fold 4]
+2025-09-20 11:32:24,120 - INFO - Macro F1-score: 0.8871
+2025-09-20 11:32:24,121 - INFO - MCC: 0.8699
+2025-09-20 11:32:24,121 - INFO - ROC-AUC (macro, OvR): 0.9869062111575884
+2025-09-20 11:32:24,121 - INFO - PR-AUC  (macro): 0.9041731255680631
+2025-09-20 11:32:24,121 - INFO - Confusion Matrix:
+[[ 28   0   0   0   1]
+ [  1   6   0   0   1]
+ [  1   0 540   3   0]
+ [  0   0   0   7   0]
+ [  3   0  46   0 219]]
+2025-09-20 11:32:24,123 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+     Bovidae       0.85      0.97      0.90        29
+     Equidae       1.00      0.75      0.86         8
+   Hominidae       0.92      0.99      0.96       544
+ Phasianidae       0.70      1.00      0.82         7
+      Suidae       0.99      0.82      0.90       268
+
+    accuracy                           0.93       856
+   macro avg       0.89      0.91      0.89       856
+weighted avg       0.94      0.93      0.93       856
+
+2025-09-20 11:32:24,123 - INFO - 
+[Fold 5]
+2025-09-20 11:32:27,759 - INFO - Macro F1-score: 0.8953
+2025-09-20 11:32:27,759 - INFO - MCC: 0.9205
+2025-09-20 11:32:27,759 - INFO - ROC-AUC (macro, OvR): 0.9960191251526178
+2025-09-20 11:32:27,759 - INFO - PR-AUC  (macro): 0.9007443387801664
+2025-09-20 11:32:27,759 - INFO - Confusion Matrix:
+[[ 28   0   0   0   1]
+ [  2   6   0   0   0]
+ [  1   0 538   3   2]
+ [  0   0   0   7   0]
+ [  4   0  21   0 243]]
+2025-09-20 11:32:27,761 - INFO - Classification Report:
+              precision    recall  f1-score   support
+
+     Bovidae       0.80      0.97      0.88        29
+     Equidae       1.00      0.75      0.86         8
+   Hominidae       0.96      0.99      0.98       544
+ Phasianidae       0.70      1.00      0.82         7
+      Suidae       0.99      0.91      0.95       268
+
+    accuracy                           0.96       856
+   macro avg       0.89      0.92      0.90       856
+weighted avg       0.96      0.96      0.96       856
+
+2025-09-20 11:32:27,789 - INFO - [Saved] Test metrics by fold (with mean) saved to: output_8M/VP4/test_f1_by_fold.csv
+2025-09-20 11:32:27,789 - INFO - 
+[Summary] VP4 5-Fold Test F1 Mean: 0.8856, MCC Mean: 0.8891, ROC-AUC Mean: 0.9925, PR-AUC Mean: 0.8867
